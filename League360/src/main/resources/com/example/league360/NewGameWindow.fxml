@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="NewGamepane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #8EA4E1;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.league360.NewGameWindowController">
+   <children>
+      <Label layoutX="70.0" layoutY="118.0" text="Type of sports" />
+      <ChoiceBox layoutX="173.0" layoutY="114.0" prefHeight="26.0" prefWidth="86.0" />
+      <Label layoutX="70.0" layoutY="177.0" prefHeight="18.0" prefWidth="108.0" text="number Of Groups" />
+      <Spinner layoutX="178.0" layoutY="174.0" prefHeight="26.0" prefWidth="108.0" />
+      <Label layoutX="65.0" layoutY="231.0" prefHeight="18.0" prefWidth="108.0" text="number Of Teams" />
+      <Spinner layoutX="178.0" layoutY="227.0" prefHeight="26.0" prefWidth="108.0" />
+      <Label layoutX="54.0" layoutY="288.0" prefHeight="18.0" prefWidth="108.0" text="number Of Players" />
+      <Spinner layoutX="178.0" layoutY="284.0" prefHeight="26.0" prefWidth="108.0" />
+      <TextField layoutX="526.0" layoutY="123.0" promptText="Name" />
+      <Label layoutX="370.0" layoutY="127.0" text="Name Of the Tournament" />
+      <JFXButton layoutX="286.0" layoutY="387.0" onAction="#submitButtonClick" prefHeight="36.0" prefWidth="166.0" style="-fx-background-color: #1E2F5C; -fx-background-radius: 20;" text="Submit" textFill="WHITE">
+         <font>
+            <Font name="Consolas" size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="286.0" layoutY="439.0" onAction="#homeButtonClick" prefHeight="36.0" prefWidth="166.0" style="-fx-background-color: #EDD53B; -fx-background-radius: 20;" text="Back To Home">
+         <font>
+            <Font name="Consolas" size="20.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

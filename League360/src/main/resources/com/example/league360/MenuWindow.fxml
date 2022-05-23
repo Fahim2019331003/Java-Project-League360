@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="MenuPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #117A65;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.league360.MenuWindowController">
+   <children>
+      <JFXButton layoutX="73.0" layoutY="422.0" onAction="#homeButtonClick" style="-fx-background-color: #5DADE2; -fx-background-radius: 20;" text="Back To Home">
+         <font>
+            <Font name="Candara" size="20.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
