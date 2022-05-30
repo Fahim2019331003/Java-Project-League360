@@ -19,6 +19,7 @@ public class Main extends Application {
     public void start(Stage stage) throws IOException {
         try {
             Stages stages=new Stages();
+            stage.setResizable(false);
             stages.showStage(stage);
 
 

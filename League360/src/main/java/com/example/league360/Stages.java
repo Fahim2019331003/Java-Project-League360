@@ -25,7 +25,6 @@ public class Stages {
             {
                 e.printStackTrace();
             }
-
         }
         nodes[1].nodeParent=nodes[0];
         nodes[2].nodeParent=nodes[0];
